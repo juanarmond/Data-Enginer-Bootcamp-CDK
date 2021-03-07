@@ -6,4 +6,4 @@ class MyProjectStack(core.Stack):
 
     def __init__(self, scope: core.Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
-        s3.Bucket(self, 'myBucket-juanarmond-cdk', bucket_name='myBucket-juanarmond-cdk')
+        s3.Bucket(self, 'mybucket-juanarmond-cdk', bucket_name='myBucket-juanarmond-cdk')

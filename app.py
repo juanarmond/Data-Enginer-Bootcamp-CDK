@@ -12,6 +12,6 @@ from my_project.my_project_stack import MyProjectStack
 
 
 app = cdk.App()
-MyProjectStack(app, "my-project")
+MyProjectStack(app, "my-project-CDK")
 
 app.synth()
